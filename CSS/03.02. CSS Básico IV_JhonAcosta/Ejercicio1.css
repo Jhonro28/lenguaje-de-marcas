@@ -1,0 +1,9 @@
+/* Estilo para el primer elemento de la lista ordenada */
+ol li:first-child {
+    color: green;
+}
+
+/* Estilo para el último elemento de la lista ordenada */
+ol li:last-child {
+    color: red; /* El último elemento será de color rojo */
+}

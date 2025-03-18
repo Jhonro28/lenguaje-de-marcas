@@ -1,0 +1,19 @@
+1. Información General
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 18/03/2025
+Ejercicio: Almacenamiento de información de ciudades en XML
+Este archivo XML almacena información sobre diversas ciudades del mundo, indicando su nombre, el país al que pertenecen y el continente correspondiente.
+
+2. Estructura del Archivo XML
+El archivo sigue una jerarquía bien definida utilizando etiquetas XML:
+
+Elemento raíz: <ciudades>
+Contiene todos los registros de ciudades.
+
+Elemento hijo: <ciudad>
+Cada ciudad se representa mediante este elemento, que incluye:
+
+<nombre>: Nombre de la ciudad.
+<pais>: Nombre del país al que pertenece la ciudad.
+Atributo continente: Indica el continente en el que se encuentra el país.

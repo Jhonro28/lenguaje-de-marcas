@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto con Formato</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgray; /* Color de fondo de la página */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Estilo para el contenedor principal */
+        .content {
+            background-color: white; /* Color de fondo del contenedor */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para los párrafos */
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* Primera letra del segundo párrafo en rojo */
+        .primer-letra {
+            color: red; /* Primer letra en rojo */
+            font-size: 1.5em; /* Tamaño de letra aumentado */
+        }
+
+        /* Estilo cuando se selecciona texto */
+        ::selection {
+            background-color: yellow; /* Fondo amarillo al seleccionar texto */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <p>CSS está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de este, características tales como las capas o layouts, los colores y las fuentes.</p>
+        <p class="primer-letra">Esta separación busca mejorar la accesibilidad del documento, proveer más flexibilidad y control en la especificación de características presentacionales, permitir que varios documentos HTML compartan un mismo estilo usando una sola hoja de estilos separada en un archivo .css, y reducir la complejidad y la repetición de código en la estructura del documento.</p>
+        <p><i>La separación del formato y el contenido hace posible presentar el mismo documento</i> marcado en diferentes estilos para diferentes métodos de renderizado, como en pantalla, en impresión, en voz (mediante un navegador de voz o un lector de pantalla), y dispositivos táctiles basados en el sistema Braille.</p>
+        <p><i>También se puede mostrar una página web de manera diferente dependiendo del</i> tamaño de la pantalla o tipo de dispositivo. Los lectores pueden especificar una hoja de estilos diferente, como una hoja de estilos CSS guardado en su computadora, para sobreescribir la hoja de estilos del diseñador.</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* 1. Estilo para los encabezados */
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Cambiar color de h1 cuando el cursor pasa sobre ellos */
+h1:hover {
+    color: #007BFF;
+}
+
+/* Agregar estilo a la primera letra de cada h1 */
+h1::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+/* 2. Estilo para los párrafos */
+p {
+    font-size: 16px;
+    color: gray;
+}
+
+/* Estilo para el primer párrafo de cada bloque de h1 */
+h1 + p:first-of-type {
+    color: green;
+}
+
+/* Estilo para el último párrafo de cada bloque de h1 */
+h1 + p:last-of-type {
+    color: #FF6347;
+}
+
+/* 3. Estilo para el div contenido */
+#contenido {
+    padding: 20px;
+    border: 2px solid #ddd;
+}
+
+/* Aplicar un borde si el div es el primero en la página */
+#contenido:first-child {
+    border: 2px solid green;
+}

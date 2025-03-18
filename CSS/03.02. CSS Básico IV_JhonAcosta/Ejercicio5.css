@@ -1,0 +1,12 @@
+div {
+    width: 80%;
+    height: 50px;
+    background-color: yellow;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    text-align: initial;
+    font-size: 10px;
+}

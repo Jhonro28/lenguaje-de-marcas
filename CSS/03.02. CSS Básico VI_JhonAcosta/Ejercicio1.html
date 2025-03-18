@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tienda de informática</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .cuadricula-contenedor {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .elemento {
+            background: #00ff99;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .diseño {
+            display: grid;
+            grid-template-areas: 
+                "cabecera cabecera cabecera"
+                "barra-lateral contenido contenido";
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: auto 1fr;
+            gap: 10px;
+            padding: 20px;
+        }
+        .cabecera { grid-area: cabecera; background: #005500; color: white; padding: 20px; text-align: center; }
+        .barra-lateral { grid-area: barra-lateral; background: #008800; color: white; padding: 20px; }
+        .contenido { grid-area: contenido; background: #ddd; padding: 20px; }
+        .cuadricula-dinamica {
+            display: grid;
+            grid-auto-flow: dense;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .cuadricula-superpuesta {
+            display: grid;
+            grid-template-areas: "superpuesto";
+            position: relative;
+            width: 100%;
+            height: 300px;
+            text-align: center;
+        }
+        .imagen { grid-area: superpuesto; position: absolute; width: 100%; height: 100%; background: url('laptop-banner.jpg') no-repeat center; background-size: cover; }
+        .texto { grid-area: superpuesto; position: relative; color: white; background: rgba(0, 0, 0, 0.5); padding: 20px; text-align: center; z-index: 1; }
+        .cuadricula-responsive {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cuadricula-contenedor">
+        <div class="elemento">1</div>
+        <div class="elemento">2</div>
+        <div class="elemento">3</div>
+        <div class="elemento">4</div>
+        <div class="elemento">5</div>
+        <div class="elemento">6</div>
+    </div>
+    <div class="diseño">
+        <div class="cabecera">Cabecera</div>
+        <div class="barra-lateral">Barra Lateral</div>
+        <div class="contenido">Contenido Principal</div>
+    </div>
+    <div class="cuadricula-dinamica">
+        <div class="elemento">A</div>
+        <div class="elemento">B</div>
+        <div class="elemento">C</div>
+        <div class="elemento">D</div>
+        <div class="elemento">E</div>
+        <div class="elemento">F</div>
+    </div>
+    <div class="cuadricula-superpuesta">
+        <div class="imagen"><img src = "imagenModerna.jfif" width=300px alt=""></div>
+        <div class="texto">Texto sobre imagen</div>
+    </div>
+    <div class="cuadricula-responsive">
+        <div class="elemento">1</div>
+        <div class="elemento">2</div>
+        <div class="elemento">3</div>
+        <div class="elemento">4</div>
+        <div class="elemento">5</div>
+        <div class="elemento">6</div>
+        <div class="elemento">7</div>
+        <div class="elemento">8</div>
+    </div>
+</body>
+</html>

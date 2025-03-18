@@ -1,0 +1,24 @@
+/* Estilo para la segunda fila */
+table tr:nth-child(2) {
+    background-color: red; /* Segunda fila en rojo */
+}
+
+/* Estilo para la quinta fila */
+table tr:nth-child(5) {
+    background-color: red; /* Quinta fila en rojo */
+}
+
+/* Estilo para la octava fila */
+table tr:nth-child(8) {
+    background-color: red; /* Octava fila en rojo */
+    
+}
+table{
+    border-collapse:collapse ;
+    width: 200px;
+    text-align: center;
+
+}
+tr, td{
+    border: 1px solid;
+}

@@ -1,0 +1,19 @@
+::selection {
+    background-color: #fff0b3; 
+    color: brown; 
+}
+h2::first-letter{
+    color: blue;
+    
+}
+strong::before{
+    margin: 0%;
+    content: "*. ";
+}
+strong{
+    color: green;
+}
+p::after{
+    color: red;
+    content: " -Aloja more don ";
+}

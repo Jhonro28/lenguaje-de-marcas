@@ -1,0 +1,34 @@
+#teal{
+    color: teal;
+}
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+}
+#orange{
+    color: orange;
+}
+#purple{
+    color: purple;
+}
+#olive{
+    color: olive;
+}
+#fuchsia{
+    color: fuchsia;
+}
+#green{
+    color: green;
+}
+
+td#segundaCol{
+    background-color: red;
+}
+td#terceraCol{
+    background-color: green;
+}
+td#cuartaCol{
+    background-color: blue;
+}

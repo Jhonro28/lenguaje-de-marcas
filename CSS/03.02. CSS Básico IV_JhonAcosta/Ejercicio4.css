@@ -1,0 +1,7 @@
+#fechainicio li:only-child{
+    color: blue;
+    
+}
+#equipo1 p:only-of-type{
+    color: red;
+}
