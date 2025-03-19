@@ -1,0 +1,20 @@
+1. Información General
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 19/03/2025
+Ejercicio: Almacenamiento de información de libros en XML
+
+Este archivo XML almacena información sobre una lista de libros, indicando su título, el autor y el año de publicación.
+
+2. Estructura del Archivo XML
+El archivo sigue una jerarquía bien definida utilizando etiquetas XML:
+
+Elemento raíz: <libros>
+Este elemento principal agrupa todos los libros registrados en el archivo.
+
+Elemento hijo: <libro>
+Cada libro se representa mediante este elemento, que incluye:
+
+<titulo>: Nombre del libro.
+<autor>: Nombre del escritor.
+<año>: Año de publicación del libro.

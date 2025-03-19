@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Jhon Acosta]
+Curso: [DAM1]
+Fecha: [18/03/2025]
+Ejercicio: Hechos historicos de la tecnologia
+-->
+
+<!-- Hechos Historicos -->
+<hechos_historicos>
+    <hechos descripcion="IBM da a conocer el PC.">
+        <fecha dia="12" mes="08" año="1981"/>
+    </hechos>
+    <hechos descripcion="Se funda Google">
+        <fecha dia="04" mes="09" año="1998"/>
+    </hechos>
+    <hechos descripcion="Se funda Facebook">
+        <fecha dia="04" mes="02" año="2004"/>
+    </hechos>
+</hechos_historicos>     

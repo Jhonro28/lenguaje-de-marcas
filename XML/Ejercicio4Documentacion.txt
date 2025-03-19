@@ -1,0 +1,22 @@
+1. Información General
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 19/03/2025
+Ejercicio: Empresa y sus empleados
+
+Este archivo XML almacena información sobre una empresa y sus empleados, indicando su nombre, apellido, edad, departamento y cargo dentro de la organización.
+
+2. Estructura del Archivo XML
+El archivo sigue una jerarquía bien definida utilizando etiquetas XML:
+
+Elemento raíz: <empresa>
+Este elemento principal agrupa todos los empleados registrados en la empresa.
+
+Elemento hijo: <empleado>
+Cada empleado se representa mediante este elemento, que incluye:
+
+<nombre>: Nombre del empleado.
+<apellido>: Apellido del empleado.
+<edad>: Edad del empleado.
+<departamento>: Departamento al que pertenece el empleado.
+<cargo>: Cargo o puesto que desempeña el empleado en la empresa.

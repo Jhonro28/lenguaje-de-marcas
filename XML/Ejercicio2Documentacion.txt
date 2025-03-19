@@ -1,0 +1,22 @@
+
+1. Información General
+- Autor: Jhon Acosta
+- Curso: DAM1
+- Fecha de Creación: 18/03/2025
+- Ejercicio: Hechos históricos de la tecnología  
+Este archivo XML almacena información sobre hechos históricos clave relacionados con la tecnología, como el lanzamiento del PC, la fundación de Google y Facebook, junto con las fechas en que ocurrieron.
+
+2. Estructura del Archivo XML  
+El archivo sigue una jerarquía bien definida utilizando etiquetas XML:
+
+- Elemento raíz: <hechos_historicos>  
+  Contiene todos los registros de hechos históricos.
+
+- Elemento hijo: <hechos>  
+  Cada hecho histórico se representa mediante este elemento, que incluye:
+
+  - Atributo descripcion: Descripción del hecho histórico.
+  - Elemento hijo <fecha>: Contiene la fecha del hecho con los siguientes atributos:
+    - dia: Día del hecho.
+    - mes: Mes en que ocurrió.
+    - año: Año en que ocurrió.
