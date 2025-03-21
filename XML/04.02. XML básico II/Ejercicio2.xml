@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Jhon Acosta]
+Curso: [DAM1]
+Fecha: [21/03/2025]
+Ejercicio: Ejercicio 2
+ -->
+<!--  Equipos de Fútbol   -->
+<futbol>
+    <equipo>
+        <nombre>Bayern de Múnich</nombre>
+        <ciudad>Múnich, Alemania</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador posicion="portero">
+                <nombre>Manuel Neuer</nombre>
+                <nacionalidad>Aleman</nacionalidad>
+            </jugador>
+            <jugador posicion="delantero">
+                <nombre>Leroy Sané</nombre>
+                <nacionalidad>Aleman</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>Atlético Nacional</nombre>
+        <ciudad>Medellín, Colombia</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador posicion="portero">
+                <nombre>David Ospina</nombre>
+                <nacionalidad>Colombiano</nacionalidad>
+            </jugador>
+            <jugador posicion="volante">
+                <nombre>Uribe Zapata</nombre>
+                <nacionalidad>Colombiano</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+

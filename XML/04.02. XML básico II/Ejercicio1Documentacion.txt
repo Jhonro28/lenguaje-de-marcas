@@ -1,0 +1,19 @@
+1. Información General
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 21/03/2025
+Ejercicio: Almacenamiento de marcadores de páginas web en XML
+Este archivo XML almacena información sobre diversos marcadores de páginas web, indicando su nombre, descripción y URL correspondiente.
+
+2. Estructura del Archivo XML
+El archivo sigue una jerarquía bien definida utilizando etiquetas XML:
+
+Elemento raíz: <marcadores>
+Contiene todos los registros de marcadores.
+
+Elemento hijo: <marcador>
+Cada marcador se representa mediante este elemento, que incluye:
+
+<nombre>: Nombre del marcador.
+<descripcion>: Breve descripción del contenido de la página web.
+<url>: Dirección web del marcador.

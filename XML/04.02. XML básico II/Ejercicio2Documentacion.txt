@@ -1,0 +1,28 @@
+1. Información General
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 21/03/2025
+Ejercicio: Almacenamiento de información sobre equipos de fútbol en XML
+Este archivo XML almacena información sobre distintos equipos de fútbol, indicando su nombre, ciudad, entrenador y jugadores.
+
+2. Estructura del Archivo XML
+El archivo sigue una jerarquía bien definida utilizando etiquetas XML:
+
+Elemento raíz: <futbol>
+Contiene todos los registros de equipos de fútbol.
+
+Elemento hijo: <equipo>
+Cada equipo se representa mediante este elemento, que incluye:
+
+<nombre>: Nombre del equipo de fútbol.
+<ciudad>: Ciudad y país donde está ubicado el equipo.
+<entrenador>: Nombre del entrenador del equipo (puede estar vacío si no se proporciona).
+
+Elemento anidado: <jugadores>
+Contiene la lista de jugadores del equipo.
+
+Elemento <jugador>:
+Cada jugador se representa con este elemento e incluye:
+  - Atributo posicion: Posición en la que juega el futbolista.
+  - <nombre>: Nombre del jugador.
+  - <nacionalidad>: País de origen del jugador.

@@ -1,0 +1,34 @@
+1. Información General
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 21/03/2025
+Ejercicio: Almacenamiento de recetas de comida en XML
+Este archivo XML almacena información sobre distintas recetas de comida, incluyendo sus ingredientes, cantidad de comensales y proceso de preparación.
+
+2. Estructura del Archivo XML
+El archivo sigue una jerarquía bien definida utilizando etiquetas XML:
+
+Elemento raíz: <recetas>
+Contiene todas las recetas almacenadas.
+
+Elemento hijo: <receta>
+Cada receta se representa mediante este elemento, que incluye:
+
+<nombre>: Nombre de la receta.
+<comensales>: Número de personas para las que está pensada la receta.
+
+Elemento anidado: <ingredientes>
+Contiene la lista de ingredientes necesarios para la receta.
+
+Elemento <ingrediente>:
+Cada ingrediente se representa con este elemento e incluye:
+  - Atributo cantidad: Cantidad necesaria del ingrediente.
+  - Contenido del elemento: Nombre del ingrediente.
+
+Elemento anidado: <proceso>
+Describe el procedimiento de preparación de la receta.
+
+Elemento <paso>:
+Cada paso del proceso se representa con este elemento e incluye:
+  - Atributo numero: Número de orden del paso.
+  - Contenido del elemento: Descripción del paso a seguir

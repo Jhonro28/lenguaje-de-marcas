@@ -1,0 +1,40 @@
+1. Información General
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 21/03/2025
+Ejercicio: Gestión del módulo en XML
+Este archivo XML almacena información sobre un módulo educativo, incluyendo su nombre, duración, alumnos inscritos y sus datos personales.
+
+2. Estructura del Archivo XML
+El archivo sigue una jerarquía bien definida utilizando etiquetas XML:
+
+Elemento raíz: <modulo>
+Contiene la información del módulo educativo.
+
+Elementos hijos:
+<nombre>: Nombre del módulo.
+<horas_semanales>: Número de horas semanales del módulo.
+<caracter>: Indica si el módulo es obligatorio u opcional.
+<fecha_inicio>: Fecha de inicio del módulo.
+<fecha_fin>: Fecha de finalización del módulo.
+
+Elemento anidado: <alumnos>
+Contiene la lista de alumnos inscritos en el módulo.
+
+Elemento <alumno>:
+Cada alumno se representa con este elemento e incluye:
+  - <nombre>: Nombre completo del alumno.
+  - <dni>: Documento Nacional de Identidad del alumno.
+  - <telefono>: Número de contacto del alumno.
+  - <email>: Correo electrónico del alumno.
+
+Elemento anidado: <direccion>
+Contiene la dirección del alumno e incluye:
+  - <calle>: Nombre de la calle y número.
+  - <codigo_postal>: Código postal de la ciudad.
+  - <ciudad>: Ciudad de residencia del alumno.
+  - <provincia>: Provincia donde reside el alumno.
+
+Otros elementos:
+<faltas_asistencia>: Número de faltas de asistencia del alumno (puede no estar disponible).
+<nota>: Calificación obtenida por el alumno (puede no estar disponible).
