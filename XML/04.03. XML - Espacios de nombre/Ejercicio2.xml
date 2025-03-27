@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Jhon Acosta]
+Curso: [DAM1]
+Fecha: [24/03/2025]
+Ejercicio: Ejercicio 2
+ -->
+  <!-- Correccion del Siguiente codigo -->
+<reseñas_libros>
+    <reseña>
+        <titulo>Introducción a XML</titulo>
+        <tabla>
+            <encabezado>
+                <columna>Autor</columna>
+                <columna>Precio</columna>
+                <columna>Páginas</columna>
+                <columna>Fecha</columna>
+            </encabezado>
+            <fila>
+                <autor>Simon St. Laurent</autor>
+                <precio>31.98</precio>
+                <paginas>352</paginas>
+                <fecha>1998/01</fecha>
+            </fila>
+        </tabla>
+    </reseña>
+</reseñas_libros>

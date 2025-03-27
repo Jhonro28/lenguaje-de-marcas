@@ -1,0 +1,36 @@
+INFORMACIÓN GENERAL
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 24/03/2025
+Ejercicio: Ejercicio 2 - Corrección de Código XML
+Descripción:
+Este archivo XML almacena información sobre reseñas de libros,
+organizando los datos en una estructura clara con elementos definidos
+para el título, autor, precio, páginas y fecha de publicación.
+
+ESTRUCTURA DEL ARCHIVO XML
+El archivo sigue una jerarquía bien definida utilizando etiquetas XML:
+
+Elemento raíz: <reseñas_libros>
+Contiene todas las reseñas de libros registradas.
+
+Elemento hijo: <reseña>
+Cada reseña se estructura de la siguiente manera:
+
+: Título del libro.
+
+: Contiene la información organizada en dos secciones:
+
+: Define las columnas de la tabla:
+
+: Representa el nombre de cada columna (Autor, Precio, Páginas, Fecha).
+
+: Contiene los datos del libro:
+
+: Nombre del autor.
+
+: Precio del libro.
+
+: Número de páginas.
+
+: Fecha de publicación.

@@ -1,0 +1,40 @@
+INFORMACIÓN GENERAL
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 24/03/2025
+Ejercicio: Ejercicio 1 - Catálogo de Systems y Software
+Descripción:
+Este archivo XML almacena información sobre diferentes tipos de software,
+incluyendo sistemas operativos y aplicaciones de oficina.
+Cada software tiene detalles como nombre, versión, desarrollador y URL oficial.
+
+ESTRUCTURA DEL ARCHIVO XML
+El archivo sigue una jerarquía bien definida utilizando etiquetas XML:
+Elemento raíz: 
+Contiene todos los registros de software y está dividido en dos categorías principales:
+
+Software de Sistemas Operativos (namespace "os"):
+
+os:software: Representa un software de sistema operativo, que incluye:
+
+os:nombre: Nombre del sistema operativo.
+
+os:version: Versión del sistema operativo.
+
+os:desarrollador: Empresa desarrolladora.
+
+os:url: Enlace oficial del software.
+
+Software de Aplicaciones de Oficina (namespace "office"):
+
+office:software: Representa un software de oficina, que incluye:
+
+office:nombre: Nombre de la aplicación.
+
+office:version: Versión del software.
+
+office:desarrollador: Empresa desarrolladora.
+
+office:url: Enlace oficial del software.
+
+El uso de namespaces permite diferenciar los tipos de software dentro del mismo catálogo.
