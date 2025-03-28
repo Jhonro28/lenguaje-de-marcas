@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+    <!ELEMENT receta (nombre, mayor_de_edad?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ingredientes EMPTY>
+]>
+<receta>
+<nombre>arroz blanco</nombre>
+    <ingredientes>Arroz blanco</ingredientes>
+    <ingredientes>2 de agua por 1 de arroz</ingredientes>
+    <ingredientes>Sal</ingredientes>
+    <ingredientes>Aceite</ingredientes>
+
+</receta>

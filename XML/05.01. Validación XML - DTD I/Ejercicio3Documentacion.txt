@@ -1,0 +1,40 @@
+INFORMACIÓN GENERAL
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 28/03/2025
+Ejercicio: Ejercicio 3 - Agenda de Personas y sus Datos Personales
+Descripción:
+Este archivo XML almacena información sobre una agenda de personas, organizando los datos en una estructura jerárquica clara con etiquetas definidas para el nombre, apellidos, teléfono, fecha de nacimiento (año, mes, día) y lugar de nacimiento (país, ciudad, localidad).
+
+ESTRUCTURA DEL ARCHIVO XML
+El archivo sigue una jerarquía bien definida utilizando una DTD externa:
+
+Elemento raíz: 
+Contiene la información personal de una persona.
+
+Elemento hijo: 
+Contiene el nombre de la persona.
+
+Elemento hijo: 
+Puede haber uno o más apellidos registrados.
+
+Elemento hijo: 
+Contiene el número de teléfono de la persona.
+
+Elemento hijo: <fecha_nacimiento>
+Contiene la información detallada de la fecha de nacimiento.
+
+: Año de nacimiento.
+
+: Mes de nacimiento.
+
+: Día de nacimiento.
+
+Elemento hijo: <lugar_nacimiento>
+Contiene la información detallada sobre el lugar de nacimiento.
+
+: País de nacimiento.
+
+: Ciudad de nacimiento.
+
+: Localidad dentro de la ciudad.

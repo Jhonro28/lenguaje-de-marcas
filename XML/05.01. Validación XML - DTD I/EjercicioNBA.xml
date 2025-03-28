@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga SYSTEM "liga.dtd">
+<!--  
+Nombre: [Jhon Acosta]
+Curso: [DAM1]
+Fecha: [28/03/2025]
+Ejercicio: Ejercicio 2
+-->
+<!--  Liga de jugadores y equipos de la NBA   -->
+
+<!ELEMENT liga (jugador+)>
+<!ELEMENT jugador (nombre, apellidos, edad, equipo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT equipo (nombre, ciudad, presidente)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT presidente (nombrePresidente, apellidosPresidente)>
+<!ELEMENT nombrePresidente (#PCDATA)>
+<!ELEMENT apellidosPresidente (#PCDATA)>
+
+
+<liga>
+    <jugador>
+        <nombre>Allen</nombre>
+        <apellidos>Iverson</apellidos>
+        <edad>49</edad>
+        <equipo>
+            <nombre>76ers</nombre>
+            <ciudad>Philadelphia</ciudad>
+            <presidente>
+                <nombrePresidente>Daryl</nombrePresidente>
+                <apellidosPresidente>Morey</apellidosPresidente>
+            </presidente>
+        </equipo>
+    </jugador>
+
+    <jugador>
+        <nombre>Stephen</nombre>
+        <apellidos>Curry</apellidos>
+        <edad>36</edad>
+        <equipo>
+            <nombre>Warriors</nombre>
+            <ciudad>San Francisco</ciudad>
+            <presidente>
+                <nombrePresidente>Peter</nombrePresidente>
+                <apellidosPresidente>Guber</apellidosPresidente>
+            </presidente>
+        </equipo>
+    </jugador>
+
+    <jugador>
+        <nombre>Giannis</nombre>
+        <apellidos>Antetokounmpo</apellidos>
+        <edad>29</edad>
+        <equipo>
+            <nombre>Bucks</nombre>
+            <ciudad>Milwaukee</ciudad>
+            <presidente>
+                <nombrePresidente>Peter</nombrePresidente>
+                <apellidosPresidente>Feigin</apellidosPresidente>
+            </presidente>
+        </equipo>
+    </jugador>
+</liga>

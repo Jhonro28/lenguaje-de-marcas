@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+    <!ELEMENT COCHE (nombre,
+fecha_de_nacimiento, ciudad)>
+    <!ELEMENT MARCA (#PCDATA)>
+    <!ELEMENT fecha_de_MATRICULACION (#PCDATA)>
+    <!ELEMENT Caballos (#PCDATA)>
+]>
+    <COCHE>
+        <MARCA>ford mustang</MARCA>
+        <fecha_de_MATRICULACION>27/03/2025</fecha_de_MATRICULACION>
+<ciudad>el Bronx</ciudad>
+        <Caballos>2222</Caballos>
+</COCHE>

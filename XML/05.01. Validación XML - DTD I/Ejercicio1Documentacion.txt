@@ -1,0 +1,28 @@
+INFORMACIÓN GENERAL
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 28/03/2025
+Ejercicio: Ejercicio 1 - Biblioteca y Editorial de Libros
+Descripción:
+Este archivo XML almacena información sobre libros en una biblioteca, organizando los datos en una estructura jerárquica clara con etiquetas definidas para el título, editorial, autor (nombre y apellidos) y número de páginas.
+
+ESTRUCTURA DEL ARCHIVO XML
+El archivo sigue una jerarquía bien definida utilizando una DTD interna:
+
+Elemento raíz: 
+Contiene todos los libros registrados.
+
+Elemento hijo: 
+Cada libro está estructurado de la siguiente manera:
+
+: Indica el título del libro.
+
+: Nombre de la editorial del libro.
+
+: Contiene los datos del autor.
+
+: Nombre del autor.
+
+: Apellidos del autor.
+
+: Número de páginas del libro.

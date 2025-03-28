@@ -1,0 +1,34 @@
+INFORMACIÓN GENERAL
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 28/03/2025
+Ejercicio: Ejercicio 2 - Liga de Jugadores y Equipos de la NBA
+Descripción:
+Este archivo XML almacena información sobre jugadores de una liga de baloncesto, organizando los datos en una estructura jerárquica clara con etiquetas definidas para el nombre, apellidos, edad, equipo (nombre, ciudad, presidente con nombre y apellidos).
+
+ESTRUCTURA DEL ARCHIVO XML
+El archivo sigue una jerarquía bien definida utilizando una DTD externa:
+
+Elemento raíz: 
+Contiene todos los jugadores registrados.
+
+Elemento hijo: 
+Cada jugador está estructurado de la siguiente manera:
+
+: Nombre del jugador.
+
+: Apellidos del jugador.
+
+: Edad del jugador.
+
+: Contiene los datos del equipo.
+
+: Nombre del equipo.
+
+: Ciudad del equipo.
+
+: Contiene los datos del presidente.
+
+: Nombre del presidente del equipo.
+
+: Apellidos del presidente del equipo.

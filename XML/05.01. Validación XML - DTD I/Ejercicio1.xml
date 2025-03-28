@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+Nombre: [Jhon Acosta]
+Curso: [DAM1]
+Fecha: [28/03/2025]
+Ejercicio: Ejercicio 1
+  -->
+<!--  Biblioteca y editorial de liros   -->
+<!DOCTYPE biblioteca [
+<!ELEMENT biblioteca (libro+)>
+<!ELEMENT libro (titulo, editorial, autor, paginas)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT autor (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>
+]>
+
+<biblioteca>
+    <libro>
+        <titulo>IT</titulo>
+        <editorial>Viking Press</editorial>
+        <autor>
+            <nombre>Stephen</nombre>
+            <apellidos>King</apellidos>
+        </autor>
+        <paginas>1138</paginas>
+    </libro>
+
+    <libro>
+        <titulo>El Instituto</titulo>
+        <editorial>Scribner</editorial>
+        <autor>
+            <nombre>Stephen</nombre>
+            <apellidos>King</apellidos>
+        </autor>
+        <paginas>561</paginas>
+    </libro>
+
+    <libro>
+        <titulo>Crimen y Castigo</titulo>
+        <editorial>Ediciones Akal</editorial>
+        <autor>
+            <nombre>Fiódor</nombre>
+            <apellidos>Dostoyevski</apellidos>
+        </autor>
+        <paginas>671</paginas>
+    </libro>
+</biblioteca>
