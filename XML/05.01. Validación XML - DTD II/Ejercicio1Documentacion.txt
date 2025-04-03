@@ -1,0 +1,49 @@
+INFORMACIÓN GENERAL
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 03/04/2025
+Ejercicio: Ejercicio 1 - Factura Electrónica
+Descripción:
+Este archivo XML almacena información sobre una factura electrónica, organizando los datos en una estructura jerárquica clara con etiquetas definidas para el emisor, cliente y detalle de los productos vendidos.
+
+ESTRUCTURA DEL ARCHIVO XML
+El archivo sigue una jerarquía bien definida utilizando una DTD externa:
+
+Elemento raíz:
+Contiene la factura con su número y fecha.
+
+Elementos hijos:
+Cada factura está estructurada de la siguiente manera:
+
+: Contiene la información general de la factura, con los siguientes elementos:
+
+: Contiene los datos del emisor de la factura.
+: Nombre de la librería emisora.
+: Código de identificación fiscal de la librería.
+: Número de contacto de la librería.
+
+: Contiene los datos del cliente.
+: Nombre del cliente.
+: Código de identificación fiscal del cliente.
+: Número de contacto del cliente.
+
+: Contiene el detalle de los productos vendidos.
+: Representa una línea de factura con información sobre los productos vendidos.
+: Nombre del producto vendido.
+: Cantidad de productos comprados.
+: Precio de venta por unidad.
+: Elemento opcional que indica si el producto tiene una oferta aplicada.
+
+Atributos:
+
+numero (Identificador único de la factura).
+
+fecha (Fecha de emisión de la factura).
+
+codigo-articulo (ID único de cada artículo).
+
+tipo (Categoría del producto: "Libro", "DVD" o "Varios").
+
+importe (Total de la factura).
+
+--- Factura Electrónica ---

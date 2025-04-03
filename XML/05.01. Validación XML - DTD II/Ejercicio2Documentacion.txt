@@ -1,0 +1,32 @@
+INFORMACIÓN GENERAL
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 03/04/2025
+Ejercicio: Ejercicio 2 - Equipos NBA
+Descripción:
+Este archivo XML almacena información sobre equipos de la NBA, organizando los datos en una estructura jerárquica clara con etiquetas definidas para el nombre del equipo, conferencia, número de títulos ganados, posición en la clasificación y quinteto titular.
+
+ESTRUCTURA DEL ARCHIVO XML
+El archivo sigue una jerarquía bien definida utilizando una DTD externa:
+
+Elemento raíz:
+Contiene la lista de equipos de la NBA.
+
+Elementos hijos:
+Cada equipo está estructurado de la siguiente manera:
+
+: Contiene la información de un equipo, con los siguientes elementos:
+
+: Indica el nombre del equipo.
+
+: Número de títulos ganados por el equipo.
+
+: Posición del equipo en la clasificación.
+
+: Jugadores titulares del equipo.
+
+Atributos:
+
+conferencia (Especifica la conferencia a la que pertenece el equipo: "Oeste" o "Este").
+
+--- Equipos NBA ---

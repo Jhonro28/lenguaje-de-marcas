@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+Nombre: [Jhon Acosta]
+Curso: [DAM1]
+Fecha: [03/04/2025]
+Ejercicio: Ejercicio 1
+  -->
+<!--  Factura Electronica  -->
+<!DOCTYPE factura SYSTEM "factura.dtd">
+<factura numero="12345" fecha="2025-04-03">
+    <datos-emisor>
+        <nombre>Librería Central</nombre>
+        <cif>A12345678</cif>
+        <telefono>912345678</telefono>
+    </datos-emisor>
+    <datos-cliente>
+        <nombre>Biblioteca Municipal</nombre>
+        <cif>B87654321</cif>
+        <telefono>987654321</telefono>
+    </datos-cliente>
+    <detalle-factura importe="75.00">
+        <linea codigo-articulo="A001" tipo="Libro">
+            <descripcion>El arte de la programación</descripcion>
+            <cantidad>2</cantidad>
+            <pvp>30.00</pvp>
+            <oferta/>
+        </linea>
+        <linea codigo-articulo="A002" tipo="DVD">
+            <descripcion>Documental sobre tecnología</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>15.00</pvp>
+        </linea>
+    </detalle-factura>
+</factura>

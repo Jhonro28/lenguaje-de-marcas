@@ -1,0 +1,42 @@
+INFORMACIÓN GENERAL
+Autor: Jhon Acosta
+Curso: DAM1
+Fecha de Creación: 03/04/2025
+Ejercicio: Ejercicio 3 - Aeropuerto
+Descripción:
+Este archivo XML almacena información sobre vuelos en un aeropuerto, organizando los datos en una estructura jerárquica clara con etiquetas definidas para el nombre del aeropuerto, la fecha del panel y los vuelos con sus respectivos detalles.
+
+ESTRUCTURA DEL ARCHIVO XML
+El archivo sigue una jerarquía bien definida utilizando una DTD externa:
+
+Elemento raíz:
+Contiene el nombre del aeropuerto, la fecha del panel y la lista de vuelos registrados.
+
+Elementos hijos:
+Cada vuelo está estructurado de la siguiente manera:
+
+: Indica el nombre del aeropuerto.
+
+: Fecha del panel de vuelos.
+
+: Contenedor de todos los vuelos registrados.
+
+: Contiene los detalles de cada vuelo, con los siguientes elementos:
+
+: Indica si el vuelo es diario (elemento vacío opcional).
+
+: Ciudad de origen del vuelo.
+
+: Ciudad de destino del vuelo.
+
+<hora_salida>: Hora de salida del vuelo.
+
+<hora_llegada>: Hora de llegada del vuelo.
+
+Atributos:
+
+codigo (ID único y obligatorio para cada vuelo).
+
+estado (C - Cancelado, E - En hora, R - Retrasado, con valor por defecto "E").
+
+--- Aeropuerto ---
