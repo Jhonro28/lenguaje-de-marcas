@@ -1,0 +1,27 @@
+Elementos:
+
+nombre: Nombre del personaje.
+
+género: Género del personaje (M, F o N).
+
+Uno de los siguientes opcionales:
+
+descripcion_fisica: Descripción física del personaje.
+
+imagen: Imagen del personaje.
+
+url: Enlace relacionado al personaje.
+
+trama: Contiene la descripción de la historia del cuento.
+
+etiqueta (opcional, múltiples): Permite clasificar el cuento con palabras clave.
+
+Atributo:
+
+nombre: Nombre de la etiqueta.
+
+precio (opcional): Indica el precio del cuento.
+
+Atributo:
+
+moneda (opcional, por defecto "eur"): Unidad monetaria.
