@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+Nombre: [Jhon Acosta]
+Curso: [DAM1]
+Fecha: [28/03/2025]
+Ejercicio: Ejercicio 1
+  -->
+<!--  Cuento de Fantasia  -->
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento cod="A01" título="El Dragón y la Princesa" género="fantasía">
+    <personajes>
+        <personaje id="P1" tipo="principal">
+            <nombre>El Dragón</nombre>
+            <género>M</género>
+            <descripcion_fisica>Gigante, escamas rojas, alas enormes.</descripcion_fisica>
+        </personaje>
+        <personaje id="P2" tipo="principal">
+            <nombre>La Princesa</nombre>
+            <género>F</género>
+            <imagen>princesa.png</imagen>
+        </personaje>
+        <personaje id="P3" tipo="antagonista">
+            <nombre>El Hechicero</nombre>
+            <género>M</género>
+            <url>http://hechicero.com</url>
+        </personaje>
+    </personajes>
+    <trama>Una princesa es capturada por un hechicero malvado y un dragón valiente la rescata.</trama>
+    <etiqueta nombre="aventura"/>
+    <etiqueta nombre="fantasía"/>
+    <precio moneda="usd">10.99</precio>
+</cuento>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Cuento Infantil  -->
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento cod="B02" título="El Bosque Encantado" género="infantil">
+    <personajes>
+        <personaje id="P1" tipo="principal">
+            <nombre>Hada Luz</nombre>
+            <género>F</género>
+            <descripcion>Mágica y bondadosa, ayuda a los niños perdidos.</descripcion>
+        </personaje>
+        <personaje id="P2" tipo="secundario">
+            <nombre>Niño Tomás</nombre>
+            <género>M</género>
+            <descripcion_fisica>Cabello rizado, ojos grandes.</descripcion_fisica>
+        </personaje>
+    </personajes>
+    <trama>Un hada ayuda a Tomás a encontrar el camino de regreso a casa.</trama>
+    <etiqueta nombre="infantil"/>
+    <precio>5.50</precio>
+</cuento>
+
+<!-- Documento DTD -->
+<!ELEMENT cuento (personajes, trama, etiqueta*, precio?)>
+<!ATTLIST cuento cod CDATA #REQUIRED>
+<!ATTLIST cuento título CDATA #REQUIRED>
+<!ATTLIST cuento género (infantil|fantasía|terror) #IMPLIED>
+
+<!ELEMENT personajes (personaje+)>
+<!ELEMENT personaje (nombre, género, (descripcion_fisica | imagen | url)?)>
+<!ATTLIST personaje id ID #REQUIRED>
+<!ATTLIST personaje tipo (principal|secundario|antagonista) "principal">
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT género (#PCDATA)>
+<!ELEMENT descripcion_fisica (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+
+<!ELEMENT trama (#PCDATA)>
+
+<!ELEMENT etiqueta EMPTY>
+<!ATTLIST etiqueta nombre CDATA #REQUIRED>
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA "eur">
