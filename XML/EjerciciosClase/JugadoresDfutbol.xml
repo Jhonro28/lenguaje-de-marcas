@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas [
+<!ELEMENT deportistas (futbol | f1 | tenis)*>
+<!ELEMENT futbol (#PCDATA)>
+<!ELEMENT f1 (#PCDATA)>
+<!ATTLIST f1 pais CDATA "España">
+<!ATTLIST f1 fecha_de_nacimiento CDATA
+#IMPLIED>
+<!ATTLIST f1 equipo CDATA #REQUIRED>
+<!ELEMENT tenis (#PCDATA)>
+]>
+<deportistas>
+<futbol pais="Alemania"
+fecha_de_nacimiento="03/07/1987"
+equipo="Bayern Munchen">Manuel Neuer</f1>
+<futbol equipo="Borussia Dormunt">Marcus Reus</f1>
+<tenis>Rafael Nadal</tenis>
+</deportistas>
